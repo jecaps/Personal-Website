@@ -8,11 +8,12 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #fbfbff;
 }
 
 header {
-  position: fixed;
-  width: 100%;
+  position: sticky;
+  top: 0;
   display: flex;
   justify-content: space-between;
   padding: 1rem;
