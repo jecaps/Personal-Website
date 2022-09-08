@@ -12,7 +12,7 @@ body {
   color: #2e2e3a;
 }
 
-header {
+.header {
   position: sticky;
   top: 0;
   display: flex;
@@ -21,23 +21,23 @@ header {
   background-color: #e8ebf7;
 }
 
-h1 {
+.header__title {
   font-family: "Paytone One", sans-serif;
   font-weight: 900;
 }
 
-nav {
+.header__nav {
   display: flex;
   align-items: center;
 }
 
-nav ul {
+.header__list {
   list-style: none;
   display: flex;
   align-items: flex-end;
 }
 
-nav ul a {
+.header__link {
   font-weight: 500;
   text-decoration: none;
   font-size: 1.2rem;
@@ -45,7 +45,7 @@ nav ul a {
   padding: 1rem 2rem;
 }
 
-nav ul a:hover {
+.header__link:hover {
   background-color: #0c3683;
   color: #fff;
   border-radius: 0.25rem;
@@ -59,41 +59,41 @@ main {
   max-width: 1200px;
 }
 
-#skills {
+.profile {
   display: flex;
   justify-content: space-between;
 }
 
-.image img {
+.profile__image {
   border-radius: 50%;
   margin-bottom: 0.5rem;
 }
 
-.image figcaption {
+.profile__description {
   font-style: italic;
   text-align: center;
   color: #4c5c68;
 }
 
-.skills-and-interests {
+.profile__skills-hobbies {
   width: 450px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
 }
 
-.skills-and-interests h3 {
+.profile__title {
   text-align: center;
   margin-bottom: 0.5rem;
 }
 
-.skills-and-interests ul {
+.profile__list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
 
-.skills-and-interests li {
+.profile__item {
   list-style: none;
   display: inline;
   background-color: #e8ebf7;
